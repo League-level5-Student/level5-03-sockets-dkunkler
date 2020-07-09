@@ -46,6 +46,7 @@ public class ServerGreeter extends Thread {
 			try {
 				@SuppressWarnings("unused")
 				ServerGreeter sGreeter = new ServerGreeter();
+				sGreeter.run();
 			} catch(IOException e) {
 				e.printStackTrace();
 			}
